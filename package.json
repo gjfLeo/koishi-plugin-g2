@@ -1,6 +1,6 @@
 {
   "name": "@gjfleo/koishi-plugin-g2",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "在koishi中使用@antv/g2，基于skia-canvas。",
   "license": "MIT",
   "repository": {
@@ -8,6 +8,7 @@
     "url": "git+https://github.com/gjfleo/koishi-plugin-g2.git"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
