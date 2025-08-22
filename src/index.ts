@@ -36,7 +36,7 @@ export default class G2 extends Service {
         .action(async ({ session }) => {
           const chart = await this.createChart(demo["条形图"]);
           const dataUrl = await chart.toDataURL("png");
-          session.send(h("img", { src: dataUrl }));
+          session.send(h.image(dataUrl));
         });
       ctx.command("g2.折线图", "绘制示例折线图")
         .action(async ({ session }) => {

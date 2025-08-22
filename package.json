@@ -1,7 +1,7 @@
 {
   "name": "@gjfleo/koishi-plugin-g2",
   "version": "1.0.0",
-  "description": "在koishi中使用@antv/g2，基于skia-canvas。",
+  "description": "在koishi中使用@antv/g2绘制图表。基于skia-canvas。",
   "license": "MIT",
   "repository": {
     "type": "git",

@@ -8,7 +8,7 @@
 
 ## 用法
 
-```tsx
+```ts
 const chart = await ctx.g2.createChart({
   type: "interval",
   autoFit: true,
@@ -36,7 +36,7 @@ const chart = await ctx.g2.createChart({
   theme: { view: { viewFill: "white" } },
 });
 const dataUrl = await chart.toDataURL("png");
-session.send(<img src={dataUrl} />);
+session.send(h.image(dataUrl));
 ```
 
 注意事项：
